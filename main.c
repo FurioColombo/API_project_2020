@@ -244,16 +244,13 @@ void printLines(const char *currCommand){
 
         if ( i >= 0 && i < numberOfWrittenLines){
             printf("%s", textMatrix.matrix[i]);
-            /*if(textMatrix.matrix[0][0] ==  '1' && textMatrix.matrix[0][1] == '1' && textMatrix.matrix[0][2] =='8'){
-                printf("cacca");
-            }*/
         } else {
             printf(".\n");
         }
     }
 
     //todo: delete
-    //fflush(stdout);
+    fflush(stdout);
 }
 
 
